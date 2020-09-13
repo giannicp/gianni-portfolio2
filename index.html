@@ -1,67 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="workspace/gianni-portfolio2/Assets/styles/styles.css" media="screen"/> 
-    <!-- i would like to include the style in the specific file styles.css instead of keeping it in the index, but I'm unable to make it work, I used the line above. What's wrong? --> 
-    <style> 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #4CAF50;
-}
-</style>
-
-</head>
-<body>
-    <h1> Welcome to my portfolio </hi>
-    <p>
-    Welcome to my site, I have great projects to share with you!
-    </p>
-</body>
-
-<a href="index.html"> LOGO</a>
-      <!-- in order to apply the css style to the list, I had to remove the <nav> how can apply the style to lists under the nav?--> 
-  
-    <ul>
-    <li>
-         <a href="index.html"> Home</a>
-    </li>     
-    <li>
-         <a href="about.html"> About Me</a>
-    </li>     
-    <li>
-         <a href="portfolio.html"> Portfolio</a>
-    </li>   
-     <li>
-         <a href="contact.html"> Contact Me</a>
-    </li>       
-<ul>
-
-<div>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="Assets/css/style.css">
+      <title>Document</title>
+   </head>
+   <body>
+      <nav>
+         
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="about.html">About Me</a>
+            </li>
+            <li>
+               <a href="portfolio.html">My Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Me</a>
+            </li>
+         </ul>
+      </nav>
+   </body>
+</html>
