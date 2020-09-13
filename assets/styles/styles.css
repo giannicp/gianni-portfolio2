@@ -10,7 +10,7 @@ nav ul {
         float: right;
         border-right: 1px solid #bbb
     }
-nav li:last-child {
+nav li:first-child {
     border-right: none;
     }
 
@@ -19,4 +19,15 @@ nav li a {
     color: #fff;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none!important;
+    }
+
+/* This is a needed to highlight a button when you pass the mouse on it */
+nav li a:hover{
+    background-color: #111;
+    color: #f2f2f2
+    }
+
+nav.active {
+    background-color: #4caF50;
     }
