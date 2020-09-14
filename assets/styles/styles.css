@@ -37,12 +37,9 @@ nav li a {
     color: #f2f2f2
     }
 
- 
-/* This doesn't work */
-nav.active {
+
+nav. active {
     background-color: #4caF50;
     }
-/* removing nav. it works, why? */    
-    .active {
-  background-color: #4CAF50;
-}
+
+ 
