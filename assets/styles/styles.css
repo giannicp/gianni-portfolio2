@@ -1,45 +1,41 @@
 nav ul {
-    list-style-type: none;  /*Removes the bullets. A navigation bar does not need list markers */
-    margin: 0; /*to remove browser default settings*/
-    padding: 0; /*to remove browser default settings*/
-    overflow: hidden;
-    background-color: #444 
-    
-    }
+  list-style-type: none; /*Removes the bullets. A navigation bar does not need list markers */
+  margin: 0; /*to remove browser default settings*/
+  padding: 0; /*to remove browser default settings*/
+  overflow: hidden;
+  background-color: #444;
+}
 
-    nav li {
-        float: right;
-        border-right: 1px solid #bbb
-    }
+nav li {
+  float: right;
+  border-right: 1px solid #bbb;
+}
 nav li:first-child {
-    border-right: none;
-    }
+  border-right: none;
+}
 
 nav li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none!important;
-    }
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
 #myLogo {
   display: block;
-  background-color: rgb(233, 145, 13);
-  color:rgb(0, 0, 0);
+
+  color: rgb(0, 0, 0);
   padding: 14px;
   text-align: center;
-  text-decoration: none!important;
-} 
+  text-decoration: none !important;
+}
 
-/* This is a needed to highlight a button when you pass the mouse on it - it's not working on the logo*/
-  nav li a:hover {
-    background-color: #111;
-    color: #f2f2f2
-    }
+/* This is a needed to highlight a button when you pass the mouse on it - it's not working on the logo, @fandressouza */
+nav li a:hover {
+  background-color: #111;
+  color: #f2f2f2;
+}
 
-
-nav. active {
-    background-color: #4caF50;
-    }
-
- 
+nav .active {
+  background-color: rgb(233, 145, 13);
+}
