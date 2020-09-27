@@ -21,13 +21,10 @@ nav li a {
   padding: 14px 16px;
   text-decoration: none !important;
 }
-#myLogo {
-  display: block;
-
-  color: rgb(0, 0, 0);
-  padding: 14px;
-  text-align: center;
-  text-decoration: none !important;
+.navbar-logo { /*Add this for logo on the left*/
+  float: left;
+  font-family: "Gill Sans", sans-serif;
+  padding: 4 px;
 }
 
 /* This is a needed to highlight a button when you pass the mouse on it - it's not working on the logo, @fandressouza */
@@ -39,3 +36,6 @@ nav li a:hover {
 nav .active {
   background-color: rgb(233, 145, 13);
 }
+.logo { /*Add color to logo and font size*/
+  color: rgb(11, 192, 224);
+  font-size: 1em;
